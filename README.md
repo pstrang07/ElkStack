@@ -6,7 +6,7 @@ https://github.com/pstrang07/ElkStack/blob/main/Diagrams/AzureProject-Page-1.jpg
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
- [DVWA Webserver Playbook] https://github.com/pstrang07/ElkStack/blob/main/Ansible/DVWAWebserverPlaybook.yml.txt
+ [DVWA Webserver Playbook] (https://github.com/pstrang07/ElkStack/blob/main/Ansible/DVWAWebserverPlaybook.yml.txt)
   https://github.com/pstrang07/ElkStack/blob/main/Ansible/Elkplaybook.yml.txt
   https://github.com/pstrang07/ElkStack/blob/main/Ansible/Filebeat-playbook.cfg.txt
   https://github.com/pstrang07/ElkStack/blob/main/Ansible/Metricbeat-playbook.yml.txt
