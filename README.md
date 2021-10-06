@@ -50,12 +50,12 @@ Machines within the network can only be accessed by _____.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
 
 A summary of the access policies in place can be found in the table below.
-
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name                 | Publicly Accessible | Allowed IP Addesses |
+|----------------------|---------------------|---------------------|
+| Jump Box Provisioner | yes                 | My Home IP Address  |
+| Elk Stack            | yes                 | My Home IP Address  |
+| Web1                 | no                  | 10.0.0.4            |
+| Web2                 | no                  | 10.0.0.4            |
 
 ### Elk Configuration
 
