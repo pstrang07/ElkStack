@@ -94,8 +94,11 @@ MetricBeat tracks and logs system and service information about the Elkstack VM 
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
+
 Copy the ELKStackPlaybook.yml file to /etc/ansible/roles/.
+
 Update the /etc/ansible/hosts/ file to include the ELK stack VM IP address.
+
 Run the playbook, and navigate to http://23.99.97.91:5601/app/kibana to check that the installation worked as expected.
 
 
