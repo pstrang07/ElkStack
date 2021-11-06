@@ -54,8 +54,8 @@ A summary of the access policies in place can be found in the table below.
 |----------------------|---------------------|---------------------|
 | Jump Box Provisioner | yes                 | My Home IP Address  |
 | Elk Stack            | yes                 | My Home IP Address  |
-| Web1                 | no                  | 10.0.0.4            |
-| Web2                 | no                  | 10.0.0.4            |
+| Web1                 | no                  | 10.0.1.4            |
+| Web2                 | no                  | 10.0.1.4            |
 
 ### Elk Configuration
 
@@ -74,7 +74,7 @@ Run ELK docker container
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![](https://github.com/pstrang07/ElkStack/blob/main/Diagrams/docker_ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -94,8 +94,11 @@ MetricBeat tracks and logs system and service information about the Elkstack VM 
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
+
 Copy the ELKStackPlaybook.yml file to /etc/ansible/roles/.
+
 Update the /etc/ansible/hosts/ file to include the ELK stack VM IP address.
+
 Run the playbook, and navigate to http://23.99.97.91:5601/app/kibana to check that the installation worked as expected.
 
 
